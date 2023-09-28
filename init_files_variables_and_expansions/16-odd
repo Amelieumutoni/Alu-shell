@@ -1,2 +1,2 @@
 #!/bin/bash
-COUNT=1; while read line; do if [[ $COUNT -eq 1 ]]; then echo "$line
+paste -d, - - | cut -d, -f1
